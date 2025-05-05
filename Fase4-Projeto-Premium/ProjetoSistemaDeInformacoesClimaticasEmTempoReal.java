@@ -51,7 +51,8 @@ public class ProjetoSistemaDeInformacoesClimaticasEmTempoReal {
 
 	// Método para imprimir os dados meteorológicos de forma organizada:
 	public static void imprimirDadosClimaticos(String dados) {
-		// System.out.println("Dados originais (JSON) obtidos no site meteorológico" + dados);
+		System.out.println("Dados originais (JSON) obtidos no site meteorológico" + dados);
+		System.out.println("-".repeat(40));
 
 		JSONObject dadosJson = new JSONObject(dados);
 		JSONObject informacoesMeteorologicas = dadosJson.getJSONObject("current");
