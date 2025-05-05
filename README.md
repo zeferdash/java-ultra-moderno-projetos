@@ -1,3 +1,3 @@
 # java-ultra-moderno-projetos
 
-Nesse repositório estou adicionando apenas os projetos do curso.
+Projetos do curso Java Ultra Moderno.
